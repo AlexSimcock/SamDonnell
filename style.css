@@ -391,11 +391,12 @@ h6 {
 .clients-bottom{
 	padding-left: 25%;
 	padding-right: 25%;
+	position: relative;
+	display: inline-block;
 }
 
 .bottom-container {
     position:relative;
-    float:left;
     display: inline-block;
     padding: 20px;
 
