@@ -141,6 +141,11 @@ h1 {
 	text-transform: uppercase;
 	text-align: centre;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	margin-top: 0%;
+	padding:0;
 }
 
 h2 {
@@ -156,16 +161,19 @@ h2 {
 	height: 80%;
 	margin-left: auto;
 	margin-right: auto;
-
 	text-align: center;
 }
 
 .divider{
 	height: 5px;
-	width: 500px;
+	width: 100%;
+	margin-left: auto;
+	margin-right:auto;
 	background-color: black;
 	border: none;
 	margin-top: 10px;
+	display: flex;
+	justify-content: center;
 }
 
 .social-container {
