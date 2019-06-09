@@ -72,6 +72,21 @@
 	text-align: center;
 }
 
+.bgLogin {
+	width: 80%;
+}
+
+.LoginBG {
+	opacity: 0.4;
+}
+
+.loginbutton {
+	background-color: green;
+	width: 150px;
+	height: 40px; 
+	z-index: 1;
+}
+
 /* The Modal (background) */
 .modal {
 	display: none; /* Hidden by default */
