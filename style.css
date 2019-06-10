@@ -74,9 +74,17 @@ background-color: #FFFFFF;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 80%;
+  height: 90%;
   width: 100%;
   padding: 0;
+}
+
+.about{
+	width: 50%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 .graphic{
@@ -88,7 +96,8 @@ background-color: #FFFFFF;
 	border-radius: 100%;
 	border-style: solid;
 	border-color: #292929;
-	margin-top: 60px;
+	margin-top: 15%;
+	margin-bottom: 5%;
 	-webkit-transition: transform 0.3s;
     transition: transform 0.3s;
 }
@@ -154,14 +163,6 @@ h2 {
 	font-weight: bold;
 	margin-top: 10;
 	text-transform: uppercase;
-}
-
-.about{
-	width: 50%;
-	height: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
 }
 
 .divider{

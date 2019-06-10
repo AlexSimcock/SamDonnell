@@ -70,21 +70,38 @@
 
 .loginContainer{
 	text-align: center;
+	height: 100%;
+
 }
 
 .bgLogin {
-	width: 80%;
+	display: flex;
+	width: 100%;
+	z-index: -1;
+
 }
 
 .LoginBG {
-	opacity: 0.4;
+	opacity: 0.3;
+	width: 50%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 .loginbutton {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	background-color: green;
 	width: 150px;
 	height: 40px; 
-	z-index: 1;
+	vertical-align: middle;
 }
 
 /* The Modal (background) */
