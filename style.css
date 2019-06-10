@@ -74,7 +74,7 @@ background-color: #FFFFFF;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 90%;
+  height: fit;
   width: 100%;
   padding: 0;
 }
@@ -257,9 +257,9 @@ background: url('paper.jpg')no-repeat center center fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 1000%;
-  width: 100%;
-  padding-top: 0;
+  height: fit;
+  width: fit;
+  /* padding-top: 0; */
 }
 
 .about_me {
@@ -342,8 +342,8 @@ h4{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
-  width: 100%;
+  height: fit;
+  width: fit;
 	padding-bottom: 0px;
 }
 
@@ -366,7 +366,7 @@ h5 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 90%;
+  height: 100%;
   width: 100%;
 	margin-top: 0px;
 	padding-top: 0px;
@@ -405,7 +405,7 @@ h6 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 90%;
+	height: 100%;
 	width: 100%;
 	margin-top: -85px;
 	padding-top: 0px;
@@ -450,10 +450,3 @@ h6 {
     padding: 20px;
 
 }
-
-
-
-
-
-
-

@@ -67,10 +67,9 @@
 	.sidebar a {font-size: 18px;}
   }
 
-
 .loginContainer{
 	text-align: center;
-	height: 100%;
+	height: fit;
 
 }
 
